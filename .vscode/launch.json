@@ -8,19 +8,22 @@
             "type": "node",
             "request": "launch",
             "name": "启动程序",
-<<<<<<< HEAD
             "program": "${workspaceRoot}/test1.js",
             "cwd": "${workspaceRoot}"
         },
         {
             "type": "node",
-            "request": "attach",
-            "name": "附加到进程",
-            "port": 5858
-=======
+            "request": "launch",
+            "name": "index",
             "program": "${workspaceRoot}/index1.js",
             "cwd": "${workspaceRoot}"
->>>>>>> b358b049b311e7b47e859704568a081fba6a7931
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "file-explorer",
+            "program": "${workspaceRoot}/file-explorer/index.js",
+            "cwd": "${workspaceRoot}"
         }
     ]
 }

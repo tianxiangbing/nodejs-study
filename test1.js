@@ -36,3 +36,10 @@ setTimeout(function(){
 setTimeout(function(){
     console.log(Date.now()-now);
 },2000);
+
+var buff= new Buffer('==iilj2i3hli23h','base64');
+console.log(buff);
+var fs = require('fs');
+fs.writeFile('logo.png',buff,function(e){
+    console.log(e)
+});
